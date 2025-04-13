@@ -29,6 +29,14 @@ The following packages are required to run the code:
 - MLflow
 - pyngrok (for MLflow UI tunneling)
 
+All dependencies can be installed using pip. The code is compatible with Python 3.11
+
+To install the required packages, you can create a virtual environment and install the dependencies listed in `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Installation
 
 1. Clone this repository:
@@ -67,9 +75,12 @@ The following packages are required to run the code:
    - Final model training and evaluation
 
 3. To track experiments with MLflow:
+
    ```
    mlflow ui --backend-store-uri sqlite:///mlruns.db --port 5000
    ```
+
+4. Video demonstration of the project is available at: [Drive](https://drive.google.com/file/d/1_cXeHJQ0Vp10Q2IF0lvWfYqOxqxYgmNs/view?usp=sharing)
 
 ## Project Structure
 
